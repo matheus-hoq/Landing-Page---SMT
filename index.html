@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">    
+    <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+    <link href="css/dist/style.min.css"  rel="stylesheet" type="text/css" />
+    <title>SMT Soluções</title>
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg">
+
+            <a class="navbar-brand" href="index.html">
+                <img src="img/logo.png" alt="Logo da SMT Soluções" class="img">
+            </a>
+
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="index.html">Home <span class="sr-only"></span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#anchor-who-are-we">Quem somos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#anchor-clientes">Nossos clientes</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#anchor-history">Nosso histórico</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#anchor-contato">Contato</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="landing">
+            <div id="gradient">               
+                    <h1>Transformando ideias em soluções</h1>
+                    <h2 class="landing-title">Venha conhecer mais sobre nós!</h2>
+                <div class="button-position">
+                    <a href="#anchor-who-are-we"><button class="landing-button">Comece já!</button></a>
+                </div>
+            </div>
+        </section>
+        
+
+        <section class="who-are-we">
+            <div class="row">
+                <div class="column">
+                    <h2 class="who-are-we-title" id="anchor-who-are-we">Quem somos?</h2>
+                    <p class="who-are-we-text">A consultoria especializada no desenvolvimento de soluções em tecnologia da informação:</p>
+                            <p>- Aplicando as melhores práticas de mercado;</p>
+                            <p>- Utilizando as linguagens e frameworks mais apropriados para cada tecnologia e solução;</p>
+                            <p>- Obedecendo os preceitos do Gerenciamento de Projetos;</p>
+                            <p>- Tudo isso adequado ao Modelo Ágil ou Clássico;</p>
+                            <p>- Tendo o Scrum como nosso framework de gerenciamento de colaboração de equipe e atividades dos projetos.</p>
+                </div>
+                <div class="column">                    
+                    <figure>
+                        <img class="who-are-we-img" src="img/who-are-we.jpg" alt="Grupo de pessoas trabalhando">
+                    </figure>
+                </div>
+            </div>
+        </section>
+
+        <section>
+            <div>
+                <div>
+                    <h2 class="text-center titulo-cliente" id="anchor-clientes">Nossos clientes:</h2>
+                </div>
+                    <div class="clientes">
+                        <div class="card">
+                            <a href="pg/cliente.html">
+                                <img class="img-clientes"src="img/suzano-logo.png" alt="Logo da Empresa Suzano" >
+                            </a>
+                        </div>
+                        <div class="card">
+                            <img class="img-clientes" src="img/futuragene-logo.png" alt="Logo da Empresa Futura Gene" >
+                        </div>
+                        <div class="card">
+                            <img class="img-clientes" src="img/knoq-logo.png" alt="Logo da Empresa Knoq" >
+                        </div>
+                        <div class="card">
+                            <img class="img-clientes" src="img/playbook-logo.png" alt="Logo da Empresa Playbook" >
+                        </div>
+                        <div class="card">
+                            <img class="img-clientes" src="img/tecpay-logo.png" alt="Logo da Empresa Tecpay" >
+                        </div>
+                        <div class="card">
+                            <img class="img-clientes" src="img/trusst-logo.png" alt="Logo da Empresa Trusst" >
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section>
+            <div class="history" id="anchor-history">
+                <div class="row">
+                    <div class="column">                    
+                        <figure>
+                            <img class="history-img" src="img/historico.jpg" alt="Desenvolvedores em grupo">
+                        </figure>
+                    </div>
+                    <div class="column">
+                        <h2 class="history-title">Histórico</h2>
+                        <p class="history-text">Morbi a gravida leo. Aliquam fermentum nec nisi eget ultrices. Nam quis quam nec purus congue vulputate convallis nec augue. Ut id bibendum risus, et finibus odio. Sed lacinia orci non erat dignissim, id fringilla neque tincidunt. Morbi metus elit, pulvinar in semper nec, lacinia quis quam. Donec quis porttitor justo. Vivamus nunc ex, imperdiet at sapien sit amet, blandit feugiat erat. Fusce a risus mauris. Cras non ligula ultrices, accumsan odio in, posuere ipsum. Quisque venenatis egestas est, tincidunt maximus mi. Vestibulum sodales orci eget maximus laoreet.</p>
+                    </div>                    
+                </div>
+            </div>
+        </section>
+        <section class="form-contato">
+            <div class="card">
+                <div class="row">
+                    <h2   class="col-12 col-md-12 col-lg-12 text-center" id="anchor-contato">Entre em contato conosco:</h2>
+                    <form>
+                        <div>
+                            <label for="email">Email:</label><br>
+                            <input type="email" class="form-control" id="email" name="email" placeholder="Digite seu email..." required="required"><br>
+                            <label for="assunto">Assunto:</label><br>
+                            <input type="text" class="form-control" id="assunto" name="assunto" required="required" placeholder="Digite o assunto..." ><br>
+                            <label for="mensagem">Mensagem:</label><br>
+                            <textarea class="form-control" name="texto" cols="80" rows="4" required="required"  placeholder="Digite sua mensagem..." ></textarea>
+                        </div>
+                        <div>
+                            <input type="submit" class="btn btn-primary btn-block">
+                        </div>
+                    </form>
+                </div>
+            </div>
+            <button id="myBtn"><a href="#top" style="color: white">^</a></button>
+        </section>
+    </main>
+
+    <footer>
+        <div>
+            <div>
+                <div>
+                    <a href="index.html" aria-label="Subir">
+                        <img src="img/logo.png" alt="" class="img-footer">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
